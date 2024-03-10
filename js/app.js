@@ -1,12 +1,8 @@
+import { createRoot } from 'react-dom/client';
 
-const navbar =(
-    <nav>
-    <><h1>High Converting Sites</h1><ul>
-        <li>About</li>
-        <li>Contact Us</li>
-        <li>Pricing</li>
-    </ul></>
-    </nav>
-)
+// Clear the existing HTML content
+document.body.innerHTML = '<div id="app"></div>';
 
-ReactDOM.render(navbar, document.getElementById("root"))
+// Render your React component instead
+const root = createRoot(document.getElementById('app'));
+root.render(<h1>Hello, world</h1>);
