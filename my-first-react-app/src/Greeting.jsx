@@ -3,8 +3,13 @@ import React from 'react';
 const Greeting = () => {
   return (
     <div>
-      <img src="./react img.jpg" width="200px" alt ="react logo"/>
-      <h1>Test title</h1>
+      <header>
+        <nav>
+          <img src="./react img.jpg" width="200px" alt ="react logo"/>
+
+        </nav>
+      </header>
+      <h1>A list created using react</h1>
       <ol className="test-list">
         <li>List item 1</li>
         <li>List item 2</li>
