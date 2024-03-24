@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Greeting = () => {
+const Page = () => {
   return (
     <div>
       <header>
@@ -28,4 +28,4 @@ const Greeting = () => {
   );
 };
 
-export default Greeting;
+export default Page;
