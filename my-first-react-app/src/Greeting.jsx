@@ -1,29 +1,51 @@
 import React from 'react';
 
-const Page = () => {
+const Header = () => {
   return (
     <div>
-      <header>
-        <nav>
-          <img src="./react img.jpg" width="200px" alt ="react logo"/>
-        </nav>
-      </header>
-      <h1>A list created using react</h1>
-      <ol className="test-list">
-        <li>List item 1</li>
-        <li>List item 2</li>
-        <li>List item 3</li>
+  <header>
+        <nav className = "nav">
+        <img src="./react img.jpg" width="100px" alt ="react logo"/>
+      <ol className="nav-items">
+        <li>Pricing</li>
+        <li>About</li>
+        <li>Contact</li>
       </ol>
-      <footer>
-      </footer>
+      </nav>
+      </header>
+      </div>
+  )
+}
+
+const MainContent = () => {
+  return (
+    <div>
+      <h1>Your Level Up List</h1>
       <svg>
-        <circle cx="25" cy="75" r="20" stroke="green" strokeWidth="2" />
+        <circle cx="55" cy="75" r="20" stroke="green" strokeWidth="2" />
       </svg>
       <form>
         <input type="text" />
       </form>
+    </div>
+  )
+  
+}
+  const Footer = () => {
+    return (
+      <footer>
       <small>2024 GSB development. All rights reserved.</small>
+      </footer>
+    )
+  }
 
+const Page = () => {
+  return (
+    <div>
+      <Header/>
+      <MainContent/>
+      <Footer/>
+      
     </div>
   );
 };

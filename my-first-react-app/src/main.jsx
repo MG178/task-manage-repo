@@ -6,6 +6,6 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Greeting /> // these tags are how we return a component in react
+    <Greeting /> 
   </React.StrictMode>,
 )
