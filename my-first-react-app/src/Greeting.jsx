@@ -5,7 +5,7 @@ const Header = () => {
     <div>
   <header>
         <nav className = "nav">
-        <img src="./react img.jpg" width="100px" alt ="react logo"/>
+        <img src="./react img.jpg" className ="nav-logo" width="100px" alt ="react logo"/>
       <ol className="nav-items">
         <li>Pricing</li>
         <li>About</li>
