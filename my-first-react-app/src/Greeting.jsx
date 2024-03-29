@@ -1,21 +1,6 @@
 import React from 'react';
-
-const Header = () => {
-  return (
-    <div>
-  <header>
-        <nav className = "nav">
-        <img src="./react img.jpg" className ="nav-logo" width="100px" alt ="react logo"/>
-      <ol className="nav-items">
-        <li>Pricing</li>
-        <li>About</li>
-        <li>Contact</li>
-      </ol>
-      </nav>
-      </header>
-      </div>
-  )
-}
+import Header from "./Header"
+import Footer from "./Footer"
 
 const MainContent = () => {
   return (
@@ -31,15 +16,8 @@ const MainContent = () => {
   )
   
 }
-  const Footer = () => {
-    return (
-      <footer>
-      <small>2024 GSB development. All rights reserved.</small>
-      </footer>
-    )
-  }
 
-const Page = () => {
+const App = () => {
   return (
     <div>
       <Header/>
@@ -50,4 +28,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default App;
