@@ -5,7 +5,8 @@ const Header = () => {
       <div>
     <header>
           <nav className = "nav">
-          <img src="./react img.jpg" className ="nav-logo" width="100px" alt ="react logo"/>
+          <img src="./react-black.jpeg" className ="nav-logo" alt ="react logo"/>
+          <h1 className ="nav--title">Level Up List</h1>
         <ol className="nav-items">
           <li>Pricing</li>
           <li>About</li>
