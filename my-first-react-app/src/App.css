@@ -2,7 +2,6 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
 }
 
 @keyframes logo-spin {
@@ -21,32 +20,25 @@ body {
 
 }
 
-.nav-items {
-  display: flex;
-  list-style: none;
-}
 
 .nav {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   background-color: #202127;
-  padding: 30px;
+  padding: 10px;
 }
 .nav-logo {
   width: 100px;
 }
 
-.nav > h1 {
-  color: #61DAFB ;
-}
-
-.nav-items > li {
+.nav-tag {
   padding: 20px;
-  font-weight: bold;
+  color: antiquewhite;
+  margin-right: auto;
 }
 .nav--title {
   padding: 10px;
+  color: #61c5fb;
 }
 
 .main--title {
@@ -57,5 +49,20 @@ body {
 .main--list > li {
   line-height: 19px;
   padding: 10px;
+}
+
+.main--list > li::marker {
+  line-height: 19px;
+  font-size: 1.4rem;
+  color: #61c5fb;
+
+}
+
+main {
+
+  background-image: url(greylogo.jpeg);
+  background-repeat: no-repeat;
+  background-position: right 75%;
+  
   
 }

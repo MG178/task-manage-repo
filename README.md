@@ -1,7 +1,7 @@
-# Task Manager Project
+# React Facts Project
 
-My first attempt at creating a task manager project as I learn JavaScript.  !
+My first attempt at creating a website using react
 
 ## subheader
 
-I will create a task manager once i've mastered Git and Github, which is what im currently doing with this repo.
+A fact site for React
